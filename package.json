@@ -5,7 +5,8 @@
   "main": "index.js",
   "scripts": {
     "build": "webpack --config webpack.config.js",
-    "dev": "webpack --watch"
+    "dev": "webpack --watch",
+    "forgithub": "git subtree push --prefix dist origin gh-pages"
   },
   "keywords": [],
   "author": "",
