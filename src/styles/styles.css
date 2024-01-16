@@ -1,0 +1,108 @@
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+@font-face {
+    font-family: GreatVibes-Regular;
+    src: url(../fonts/GreatVibes-Regular.woff);
+}
+
+body {
+    height: 110vh;
+    background-image: linear-gradient(to bottom right, lightblue, white);
+    font-family: 'Times New Roman', Times, serif;
+}
+
+.header {
+    height: 300px; width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+.header h1 {
+    font-size: 100px;
+    font-family: GreatVibes-Regular;
+}
+
+.tabBar {
+    width: 60%;
+    display: flex;
+    gap: 8px;
+}
+
+.tabBar button {
+    flex: 1;
+    height: 50px;
+    border: none;
+    font-size: 24px;
+    font-family: 'Times New Roman', Times, serif;
+    letter-spacing: 1px;
+    border-radius: 10px;
+}
+
+.tabBar button:hover {
+    font-size: 30px;
+}
+
+.menu,
+.main {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 5px;
+}
+
+.main-img {
+    width: 60%;
+    opacity: .9;
+}
+
+.main-description {
+    font-size: 30px;
+    font-family: GreatVibes-Regular;
+    letter-spacing: 2px;
+    color: black;
+    width: 60%;
+    justify-self: center;
+}
+
+.menu-div {
+    width: 60%;
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 10px;
+}
+
+.menu-selection {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 10px;
+    margin-bottom: 16px;
+}
+
+.menu-selection h2 {
+    font-family: GreatVibes-Regular;
+    letter-spacing: 2px;
+    font-size: 40px;
+}
+
+.menu-selection img {
+    width: 400px;
+    border: 2px solid lightblue;
+}
+
+.contact-div h3 {
+    font-size: 24px;
+    margin-bottom: 10px;
+}
+
+.contact-div p {
+    font-size: 24px;
+}
